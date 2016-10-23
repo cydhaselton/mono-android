@@ -5,30 +5,7 @@ standards for C# and the Common Language Runtime.
 
 The Mono project is part of the [.NET Foundation](http://www.dotnetfoundation.org/)
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mono/mono?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-1. [Compilation and Installation](#compilation-and-installation)
-2. [Using Mono](#using-mono)
-3. [Directory Roadmap](#directory-roadmap)
-4. [Contributing to Mono](#contributing-to-mono)
-5. [Reporting bugs](#reporting-bugs)
-6. [Configuration Options](#configuration-options)
-7. [Working with Submodules](#working-with-submodules)
-
-### Build Status
-
-| OS           | Architecture       | Status                       |
-|--------------|--------------------|------------------------------|
-| Ubuntu 14.04 | amd64              | [![ubuntu-1404-amd64][1]][2] |
-| Ubuntu 14.04 | i386               | [![ubuntu-1404-i386][3]][4]  |
-| Debian 8     | armel              | [![debian-8-armel][5]][6]    |
-| Debian 8     | armhf              | [![debian-8-armhf][7]][8]    |
-| Debian 8     | arm64              | [![debian-8-arm64][9]][10]   |
-| OS X         | amd64              | [![osx-amd64][11]][12]       |
-| OS X         | i386               | [![osx-i386][13]][14]        |
-| Windows      | amd64              | [![windows-amd64][15]][16]   |
-| Windows      | i386               | [![windows-amd64][17]][18]   |
-| CentOS       | s390x (cs)         | [![centos-s390x][19]][20]    |
+This repo contains code modifications that enables Mono to run on Android under the [Termux app](https://termux.com/help.html). It is a *work in progress*
 
 _(cs) = community supported architecture_
 
