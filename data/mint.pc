@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${pcfiledir}/../..
+libdir=${prefix}/lib
+includedir=${prefix}/include/mono-2.0
+
+
+Name: Mono Interpreter
+Description: Mono Interpreter Runtime
+Version: 4.9.0
+Requires: glib-2.0 gthread-2.0
+Libs: -L${libdir} -Wl,--export-dynamic -lmint  -lc -ldl -lgnustl_shared  -llog -lgdiplus -lcairo -lfontconfig -lfreetype -lpng -lz -lglib-2.0 -lintl -lm  -lpthread  -lpthread
+Cflags: -I${includedir} -D_REENTRANT

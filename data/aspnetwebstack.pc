@@ -1,0 +1,4 @@
+Name: AspNetWebStack
+Description: References Microsoft ASP.NET Web Stack
+Version: 4.9.0
+Libs: -r:/data/data/com.termux/files/usr/lib/mono/gac/System.Web.Razor/2.0.0.0__31bf3856ad364e35/System.Web.Razor.dll -r:/data/data/com.termux/files/usr/lib/mono/gac/System.Web.Http/4.0.0.0__31bf3856ad364e35/System.Web.Http.dll -r:/data/data/com.termux/files/usr/lib/mono/gac/System.Web.WebPages/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.dll -r:/data/data/com.termux/files/usr/lib/mono/gac/System.Web.WebPages.Razor/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.Razor.dll -r:/data/data/com.termux/files/usr/lib/mono/gac/System.Web.WebPages.Deployment/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.Deployment.dll

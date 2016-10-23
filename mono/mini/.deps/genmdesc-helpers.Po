@@ -1,0 +1,452 @@
+genmdesc-helpers.o: helpers.c ../../config.h mini.h \
+  ../../eglib/src/glib.h \
+  /data/data/com.termux/files/usr/bin/../lib/clang/3.9.0/include/stdarg.h \
+  /data/data/com.termux/files/usr/include/stdlib.h \
+  /data/data/com.termux/files/usr/include/sys/cdefs.h \
+  /data/data/com.termux/files/usr/include/sys/cdefs_elf.h \
+  /data/data/com.termux/files/usr/include/android/api-level.h \
+  /data/data/com.termux/files/usr/bin/../lib/clang/3.9.0/include/stddef.h \
+  /data/data/com.termux/files/usr/include/string.h \
+  /data/data/com.termux/files/usr/include/malloc.h \
+  /data/data/com.termux/files/usr/include/xlocale.h \
+  /data/data/com.termux/files/usr/include/alloca.h \
+  /data/data/com.termux/files/usr/include/strings.h \
+  /data/data/com.termux/files/usr/include/sys/types.h \
+  /data/data/com.termux/files/usr/bin/../lib/clang/3.9.0/include/stdint.h \
+  /data/data/com.termux/files/usr/include/stdint.h \
+  /data/data/com.termux/files/usr/include/machine/wchar_limits.h \
+  /data/data/com.termux/files/usr/include/linux/types.h \
+  /data/data/com.termux/files/usr/include/asm/types.h \
+  /data/data/com.termux/files/usr/include/asm-generic/types.h \
+  /data/data/com.termux/files/usr/include/asm-generic/int-ll64.h \
+  /data/data/com.termux/files/usr/include/asm/bitsperlong.h \
+  /data/data/com.termux/files/usr/include/asm-generic/bitsperlong.h \
+  /data/data/com.termux/files/usr/include/linux/posix_types.h \
+  /data/data/com.termux/files/usr/include/linux/stddef.h \
+  /data/data/com.termux/files/usr/include/linux/compiler.h \
+  /data/data/com.termux/files/usr/include/asm/posix_types.h \
+  /data/data/com.termux/files/usr/include/asm-generic/posix_types.h \
+  /data/data/com.termux/files/usr/include/sys/sysmacros.h \
+  /data/data/com.termux/files/usr/include/memory.h \
+  /data/data/com.termux/files/usr/include/stdio.h \
+  /data/data/com.termux/files/usr/include/asm/fcntl.h \
+  /data/data/com.termux/files/usr/include/asm-generic/fcntl.h \
+  /data/data/com.termux/files/usr/include/ctype.h \
+  /data/data/com.termux/files/usr/bin/../lib/clang/3.9.0/include/limits.h \
+  /data/data/com.termux/files/usr/include/limits.h \
+  /data/data/com.termux/files/usr/include/sys/limits.h \
+  /data/data/com.termux/files/usr/include/linux/limits.h \
+  /data/data/com.termux/files/usr/include/sys/syslimits.h \
+  ../../eglib/src/eglib-config.h ../../eglib/src/eglib-remap.h \
+  /data/data/com.termux/files/usr/include/signal.h \
+  /data/data/com.termux/files/usr/include/errno.h \
+  /data/data/com.termux/files/usr/include/linux/errno.h \
+  /data/data/com.termux/files/usr/include/asm/errno.h \
+  /data/data/com.termux/files/usr/include/asm-generic/errno.h \
+  /data/data/com.termux/files/usr/include/asm-generic/errno-base.h \
+  /data/data/com.termux/files/usr/include/asm/sigcontext.h \
+  /data/data/com.termux/files/usr/include/linux/signal.h \
+  /data/data/com.termux/files/usr/include/asm/signal.h \
+  /data/data/com.termux/files/usr/include/asm-generic/signal.h \
+  /data/data/com.termux/files/usr/include/asm-generic/signal-defs.h \
+  /data/data/com.termux/files/usr/include/asm/siginfo.h \
+  /data/data/com.termux/files/usr/include/asm-generic/siginfo.h \
+  /data/data/com.termux/files/usr/include/sys/ucontext.h \
+  /data/data/com.termux/files/usr/include/sys/user.h \
+  ../../mono/metadata/loader.h ../../mono/metadata/metadata.h \
+  ../../mono/utils/mono-publib.h ../../mono/metadata/blob.h \
+  ../../mono/metadata/row-indexes.h ../../mono/metadata/image.h \
+  ../../mono/utils/mono-error.h ../../mono/utils/mono-dl.h \
+  ../../mono/utils/mono-compiler.h ../../mono/utils/mono-dl-fallback.h \
+  ../../mono/metadata/mempool.h ../../mono/utils/monobitset.h \
+  ../../mono/metadata/class.h ../../mono/metadata/object.h \
+  ../../mono/metadata/opcodes.h ../../mono/cil/opcode.def \
+  ../../mono/metadata/tabledefs.h ../../mono/metadata/domain-internals.h \
+  ../../mono/metadata/appdomain.h ../../mono/metadata/reflection.h \
+  ../../mono/metadata/lock-tracer.h ../../mono/utils/mono-os-mutex.h \
+  /data/data/com.termux/files/usr/include/time.h \
+  /data/data/com.termux/files/usr/include/sys/time.h \
+  /data/data/com.termux/files/usr/include/linux/time.h \
+  /data/data/com.termux/files/usr/include/pthread.h \
+  /data/data/com.termux/files/usr/include/sched.h \
+  /data/data/com.termux/files/usr/include/linux/sched.h \
+  ../../mono/utils/mono-coop-mutex.h ../../mono/utils/mono-threads-api.h \
+  ../../mono/utils/mono-codeman.h ../../mono/metadata/mono-hash.h \
+  ../../mono/metadata/mono-gc.h ../../mono/utils/mono-internal-hash.h \
+  ../../mono/io-layer/io-layer.h ../../mono/io-layer/wapi.h \
+  ../../mono/io-layer/wapi-remap.h ../../mono/io-layer/types.h \
+  ../../mono/io-layer/macros.h ../../mono/io-layer/io.h \
+  ../../mono/io-layer/timefuncs.h ../../mono/io-layer/access.h \
+  ../../mono/io-layer/context.h ../../mono/io-layer/error.h \
+  ../../mono/io-layer/messages.h ../../mono/io-layer/processes.h \
+  /data/data/com.termux/files/usr/include/unistd.h \
+  /data/data/com.termux/files/usr/include/sys/select.h \
+  /data/data/com.termux/files/usr/include/sys/sysconf.h \
+  /data/data/com.termux/files/usr/include/pathconf.h \
+  ../../mono/io-layer/versioninfo.h ../../mono/io-layer/security.h \
+  ../../mono/io-layer/sockets.h ../../mono/io-layer/status.h \
+  ../../mono/io-layer/wait.h ../../mono/utils/w32handle.h \
+  ../../mono/io-layer/uglify.h ../../mono/metadata/mempool-internals.h \
+  ../../mono/metadata/class-internals.h \
+  ../../mono/metadata/metadata-internals.h \
+  ../../mono/metadata/cil-coff.h ../../mono/utils/mono-property-hash.h \
+  ../../mono/utils/mono-value-hash.h \
+  ../../mono/utils/mono-conc-hashtable.h \
+  ../../mono/sgen/gc-internal-agnostic.h ../../mono/utils/parse.h \
+  ../../mono/utils/memfuncs.h ../../mono/metadata/wrapper-types.h \
+  ../../mono/metadata/object-internals.h ../../mono/metadata/threads.h \
+  ../../mono/metadata/threads-types.h ../../mono/utils/mono-membar.h \
+  ../../mono/utils/mono-threads.h ../../mono/utils/mono-os-semaphore.h \
+  /data/data/com.termux/files/usr/include/semaphore.h \
+  ../../mono/utils/mono-stack-unwinding.h \
+  ../../mono/utils/mono-context.h ../../mono/utils/mono-sigcontext.h \
+  /data/data/com.termux/files/usr/include/ucontext.h \
+  ../../mono/utils/mono-machine.h ../../mono/arch/arm64/arm64-codegen.h \
+  ../../mono/utils/mono-linked-list-set.h \
+  ../../mono/utils/hazard-pointer.h ../../mono/utils/mono-tls.h \
+  ../../mono/utils/mono-coop-semaphore.h ../../mono/metadata/handle.h \
+  ../../mono/utils/mono-error-internals.h \
+  ../../mono/utils/checked-build.h ../../mono/utils/atomic.h \
+  ../../mono/metadata/profiler-private.h ../../mono/metadata/profiler.h \
+  ../../mono/metadata/debug-helpers.h \
+  ../../mono/utils/mono-threads-coop.h \
+  ../../mono/utils/mono-signal-handler.h mini-arch.h mini-arm64.h \
+  ../../mono/mini/mini-arm64-gsharedvt.h regalloc.h mini-unwind.h jit.h \
+  cfgdump.h ../../mono/metadata/marshal.h \
+  ../../mono/metadata/method-builder.h ../../mono/metadata/remoting.h \
+  ../../mono/metadata/security-manager.h ../../mono/metadata/tokentype.h \
+  ../../mono/metadata/exception.h patch-info.h optflags-def.h mini-ops.h
+
+../../config.h:
+
+mini.h:
+
+../../eglib/src/glib.h:
+
+/data/data/com.termux/files/usr/bin/../lib/clang/3.9.0/include/stdarg.h:
+
+/data/data/com.termux/files/usr/include/stdlib.h:
+
+/data/data/com.termux/files/usr/include/sys/cdefs.h:
+
+/data/data/com.termux/files/usr/include/sys/cdefs_elf.h:
+
+/data/data/com.termux/files/usr/include/android/api-level.h:
+
+/data/data/com.termux/files/usr/bin/../lib/clang/3.9.0/include/stddef.h:
+
+/data/data/com.termux/files/usr/include/string.h:
+
+/data/data/com.termux/files/usr/include/malloc.h:
+
+/data/data/com.termux/files/usr/include/xlocale.h:
+
+/data/data/com.termux/files/usr/include/alloca.h:
+
+/data/data/com.termux/files/usr/include/strings.h:
+
+/data/data/com.termux/files/usr/include/sys/types.h:
+
+/data/data/com.termux/files/usr/bin/../lib/clang/3.9.0/include/stdint.h:
+
+/data/data/com.termux/files/usr/include/stdint.h:
+
+/data/data/com.termux/files/usr/include/machine/wchar_limits.h:
+
+/data/data/com.termux/files/usr/include/linux/types.h:
+
+/data/data/com.termux/files/usr/include/asm/types.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/types.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/int-ll64.h:
+
+/data/data/com.termux/files/usr/include/asm/bitsperlong.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/bitsperlong.h:
+
+/data/data/com.termux/files/usr/include/linux/posix_types.h:
+
+/data/data/com.termux/files/usr/include/linux/stddef.h:
+
+/data/data/com.termux/files/usr/include/linux/compiler.h:
+
+/data/data/com.termux/files/usr/include/asm/posix_types.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/posix_types.h:
+
+/data/data/com.termux/files/usr/include/sys/sysmacros.h:
+
+/data/data/com.termux/files/usr/include/memory.h:
+
+/data/data/com.termux/files/usr/include/stdio.h:
+
+/data/data/com.termux/files/usr/include/asm/fcntl.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/fcntl.h:
+
+/data/data/com.termux/files/usr/include/ctype.h:
+
+/data/data/com.termux/files/usr/bin/../lib/clang/3.9.0/include/limits.h:
+
+/data/data/com.termux/files/usr/include/limits.h:
+
+/data/data/com.termux/files/usr/include/sys/limits.h:
+
+/data/data/com.termux/files/usr/include/linux/limits.h:
+
+/data/data/com.termux/files/usr/include/sys/syslimits.h:
+
+../../eglib/src/eglib-config.h:
+
+../../eglib/src/eglib-remap.h:
+
+/data/data/com.termux/files/usr/include/signal.h:
+
+/data/data/com.termux/files/usr/include/errno.h:
+
+/data/data/com.termux/files/usr/include/linux/errno.h:
+
+/data/data/com.termux/files/usr/include/asm/errno.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/errno.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/errno-base.h:
+
+/data/data/com.termux/files/usr/include/asm/sigcontext.h:
+
+/data/data/com.termux/files/usr/include/linux/signal.h:
+
+/data/data/com.termux/files/usr/include/asm/signal.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/signal.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/signal-defs.h:
+
+/data/data/com.termux/files/usr/include/asm/siginfo.h:
+
+/data/data/com.termux/files/usr/include/asm-generic/siginfo.h:
+
+/data/data/com.termux/files/usr/include/sys/ucontext.h:
+
+/data/data/com.termux/files/usr/include/sys/user.h:
+
+../../mono/metadata/loader.h:
+
+../../mono/metadata/metadata.h:
+
+../../mono/utils/mono-publib.h:
+
+../../mono/metadata/blob.h:
+
+../../mono/metadata/row-indexes.h:
+
+../../mono/metadata/image.h:
+
+../../mono/utils/mono-error.h:
+
+../../mono/utils/mono-dl.h:
+
+../../mono/utils/mono-compiler.h:
+
+../../mono/utils/mono-dl-fallback.h:
+
+../../mono/metadata/mempool.h:
+
+../../mono/utils/monobitset.h:
+
+../../mono/metadata/class.h:
+
+../../mono/metadata/object.h:
+
+../../mono/metadata/opcodes.h:
+
+../../mono/cil/opcode.def:
+
+../../mono/metadata/tabledefs.h:
+
+../../mono/metadata/domain-internals.h:
+
+../../mono/metadata/appdomain.h:
+
+../../mono/metadata/reflection.h:
+
+../../mono/metadata/lock-tracer.h:
+
+../../mono/utils/mono-os-mutex.h:
+
+/data/data/com.termux/files/usr/include/time.h:
+
+/data/data/com.termux/files/usr/include/sys/time.h:
+
+/data/data/com.termux/files/usr/include/linux/time.h:
+
+/data/data/com.termux/files/usr/include/pthread.h:
+
+/data/data/com.termux/files/usr/include/sched.h:
+
+/data/data/com.termux/files/usr/include/linux/sched.h:
+
+../../mono/utils/mono-coop-mutex.h:
+
+../../mono/utils/mono-threads-api.h:
+
+../../mono/utils/mono-codeman.h:
+
+../../mono/metadata/mono-hash.h:
+
+../../mono/metadata/mono-gc.h:
+
+../../mono/utils/mono-internal-hash.h:
+
+../../mono/io-layer/io-layer.h:
+
+../../mono/io-layer/wapi.h:
+
+../../mono/io-layer/wapi-remap.h:
+
+../../mono/io-layer/types.h:
+
+../../mono/io-layer/macros.h:
+
+../../mono/io-layer/io.h:
+
+../../mono/io-layer/timefuncs.h:
+
+../../mono/io-layer/access.h:
+
+../../mono/io-layer/context.h:
+
+../../mono/io-layer/error.h:
+
+../../mono/io-layer/messages.h:
+
+../../mono/io-layer/processes.h:
+
+/data/data/com.termux/files/usr/include/unistd.h:
+
+/data/data/com.termux/files/usr/include/sys/select.h:
+
+/data/data/com.termux/files/usr/include/sys/sysconf.h:
+
+/data/data/com.termux/files/usr/include/pathconf.h:
+
+../../mono/io-layer/versioninfo.h:
+
+../../mono/io-layer/security.h:
+
+../../mono/io-layer/sockets.h:
+
+../../mono/io-layer/status.h:
+
+../../mono/io-layer/wait.h:
+
+../../mono/utils/w32handle.h:
+
+../../mono/io-layer/uglify.h:
+
+../../mono/metadata/mempool-internals.h:
+
+../../mono/metadata/class-internals.h:
+
+../../mono/metadata/metadata-internals.h:
+
+../../mono/metadata/cil-coff.h:
+
+../../mono/utils/mono-property-hash.h:
+
+../../mono/utils/mono-value-hash.h:
+
+../../mono/utils/mono-conc-hashtable.h:
+
+../../mono/sgen/gc-internal-agnostic.h:
+
+../../mono/utils/parse.h:
+
+../../mono/utils/memfuncs.h:
+
+../../mono/metadata/wrapper-types.h:
+
+../../mono/metadata/object-internals.h:
+
+../../mono/metadata/threads.h:
+
+../../mono/metadata/threads-types.h:
+
+../../mono/utils/mono-membar.h:
+
+../../mono/utils/mono-threads.h:
+
+../../mono/utils/mono-os-semaphore.h:
+
+/data/data/com.termux/files/usr/include/semaphore.h:
+
+../../mono/utils/mono-stack-unwinding.h:
+
+../../mono/utils/mono-context.h:
+
+../../mono/utils/mono-sigcontext.h:
+
+/data/data/com.termux/files/usr/include/ucontext.h:
+
+../../mono/utils/mono-machine.h:
+
+../../mono/arch/arm64/arm64-codegen.h:
+
+../../mono/utils/mono-linked-list-set.h:
+
+../../mono/utils/hazard-pointer.h:
+
+../../mono/utils/mono-tls.h:
+
+../../mono/utils/mono-coop-semaphore.h:
+
+../../mono/metadata/handle.h:
+
+../../mono/utils/mono-error-internals.h:
+
+../../mono/utils/checked-build.h:
+
+../../mono/utils/atomic.h:
+
+../../mono/metadata/profiler-private.h:
+
+../../mono/metadata/profiler.h:
+
+../../mono/metadata/debug-helpers.h:
+
+../../mono/utils/mono-threads-coop.h:
+
+../../mono/utils/mono-signal-handler.h:
+
+mini-arch.h:
+
+mini-arm64.h:
+
+../../mono/mini/mini-arm64-gsharedvt.h:
+
+regalloc.h:
+
+mini-unwind.h:
+
+jit.h:
+
+cfgdump.h:
+
+../../mono/metadata/marshal.h:
+
+../../mono/metadata/method-builder.h:
+
+../../mono/metadata/remoting.h:
+
+../../mono/metadata/security-manager.h:
+
+../../mono/metadata/tokentype.h:
+
+../../mono/metadata/exception.h:
+
+patch-info.h:
+
+optflags-def.h:
+
+mini-ops.h:

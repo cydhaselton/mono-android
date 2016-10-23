@@ -1,0 +1,4 @@
+Name: Reactive Extensions
+Description: Reactive Extensions
+Version: 4.9.0
+Libs: -r:/data/data/com.termux/files/usr/lib/mono/4.5/System.Reactive.Interfaces.dll -r:/data/data/com.termux/files/usr/lib/mono/4.5/System.Reactive.Core.dll -r:/data/data/com.termux/files/usr/lib/mono/4.5/System.Reactive.Linq.dll -r:/data/data/com.termux/files/usr/lib/mono/4.5/System.Reactive.PlatformServices.dll -r:/data/data/com.termux/files/usr/lib/mono/4.5/System.Reactive.Providers.dll -r:/data/data/com.termux/files/usr/lib/mono/4.5/System.Reactive.Debugger.dll -r:/data/data/com.termux/files/usr/lib/mono/4.5/System.Reactive.Experimental.dll -r:/data/data/com.termux/files/usr/lib/mono/4.5/System.Reactive.Runtime.Remoting.dll

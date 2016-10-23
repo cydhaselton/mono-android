@@ -1,0 +1,5 @@
+#! /bin/sh
+r='/data/data/com.termux/files/pkg/ps/mono-4.9.0'
+MONO_CFG_DIR='/data/data/com.termux/files/pkg/ps/mono-4.9.0/runtime/etc'
+export MONO_CFG_DIR
+exec "$r/libtool" --mode=execute -dlopen "$r/mono/mini/libmono-2.0.la" "$r/mono/dis/monodis" "$@"

@@ -1,0 +1,6 @@
+Name: Mono
+Description: Mono Runtime
+Version: 4.9.0
+Requires: glib-2.0 gthread-2.0
+Libs: -L/data/data/com.termux/files/pkg/ps/mono-4.9.0/mono/mini/.libs -Wl,--export-dynamic -lmono  -lc -ldl -lgnustl_shared  -llog -lgdiplus -lcairo -lfontconfig -lfreetype -lpng -lz -lglib-2.0 -lintl -lm  -lpthread  -lpthread
+Cflags: -I/data/data/com.termux/files/pkg/ps/mono-4.9.0 -I/data/data/com.termux/files/pkg/ps/mono-4.9.0/mono -D_REENTRANT

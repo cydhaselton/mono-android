@@ -1,0 +1,9 @@
+prefix=/data/data/com.termux/files/usr
+exec_prefix=${prefix}
+libdir=/data/data/com.termux/files/usr/lib
+sourcesdir=${libdir}/monodoc/sources
+
+Name: Monodoc
+Description: Monodoc - Mono Documentation Tools
+Version: 4.9.0
+Libs: /r:${prefix}/lib/mono/monodoc/monodoc.dll 

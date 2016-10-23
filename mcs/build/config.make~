@@ -1,0 +1,13 @@
+prefix=/data/data/com.termux/files/usr
+exec_prefix=${prefix}
+sysconfdir=${prefix}/etc
+mono_libdir=${exec_prefix}/lib
+IL_FLAGS = /debug
+RUNTIME = ./data/data/com.termux/files/pkg/ps/mono-4.9.0/runtime/mono-wrapper
+#RUNTIME = ./../../runtime/mono-wrapper
+ILDISASM = /data/data/com.termux/files/pkg/ps/mono-4.9.0/runtime/monodis-wrapper
+JAY_CFLAGS = -Wno-implicit-function-declaration
+INSTALL = /data/data/com.termux/files/usr/bin/install -c
+MONO_VERSION = 4.9.0.0
+PLATFORM_AOT_SUFFIX = .so
+DEFAULT_PROFILE = net_4_x

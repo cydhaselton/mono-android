@@ -1,0 +1,25 @@
+
+System.Runtime:  System System.ComponentModel.Composition System.Core
+System.Reflection:  
+System.Collections:  System System.Core
+System.Resources.ResourceManager:  
+System.Globalization:  
+System.Threading.Tasks:  System.Core
+System.Collections.Concurrent:  System
+System.Text.Encoding:  
+System.IO:  System
+System.Threading:  System System.Core
+System.Diagnostics.Debug:  System
+System.Linq.Expressions:  System.Core
+System.Dynamic.Runtime:  System.Core System
+System.Linq:  System.Core
+System.Threading.Tasks.Parallel:  
+System.Xml.ReaderWriter:  System.XML
+System.Diagnostics.Tools:  System
+System.Reflection.Primitives:  
+System.Runtime.Extensions:  System
+System.Runtime.InteropServices:  System System.Core
+System.Text.Encoding.Extensions:  
+System.Runtime.Numerics:  System.Numerics
+System.Xml.XDocument:  System.Xml.Linq System.XML
+System.Reflection.Extensions:  

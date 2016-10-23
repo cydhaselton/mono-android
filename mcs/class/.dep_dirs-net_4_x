@@ -1,0 +1,51 @@
+
+PEAPI:  System
+Mono.Btls.Interface:  System Mono.Security
+Mono.Http:  System System.XML System.Web ICSharpCode.SharpZipLib Mono.Security
+Mono.Cairo:  
+Mono.Cecil:  System.Core
+Mono.Cecil.Mdb:  System Mono.Cecil
+Mono.Debugger.Soft:  System Mono.Cecil System.Core
+Mono.C5:  System
+Mono.Management:  System Mono.Posix
+Mono.Options:  System
+Mono.Simd:  System.Core
+Mono.Tasklets:  
+Mono.CodeContracts:  System System.Core Mono.Cecil Mono.Cecil.Mdb
+Mono.Parallel:  System.Core System
+Mono.Security.Win32:  
+Mono.Messaging.RabbitMQ:  System System.Messaging Mono.Messaging RabbitMQ.Client
+System.Dynamic:  System.Core System
+System.Windows.Forms.DataVisualization:  System System.Drawing System.Windows.Forms System.Core System.Data System.XML
+System.Reactive.Interfaces:  System System.Core
+System.Reactive.Core:  System System.Core System.Reactive.Interfaces
+System.Reactive.Linq:  System System.Core System.Reactive.Interfaces System.Reactive.Core
+System.Reactive.PlatformServices:  System System.Core System.Reactive.Interfaces System.Reactive.Core System.Reactive.Linq
+System.Reactive.Providers:  System System.Core System.Reactive.Interfaces System.Reactive.Core System.Reactive.Linq
+System.Reactive.Runtime.Remoting:  System System.Core System.Reactive.Interfaces System.Reactive.Core System.Reactive.Linq
+System.Reactive.Windows.Forms:  System System.Core System.Reactive.Interfaces System.Reactive.Core System.Reactive.Linq System.Windows.Forms
+System.Reactive.Windows.Threading:  System System.Core System.Reactive.Interfaces System.Reactive.Core System.Reactive.Linq WindowsBase
+System.Reactive.Observable.Aliases:  System System.Core System.Reactive.Interfaces System.Reactive.Core System.Reactive.Linq System.Reactive.Providers
+System.Reactive.Experimental:  System System.Core System.Reactive.Interfaces System.Reactive.Core System.Reactive.Linq
+System.Reactive.Debugger:  System System.Core System.Reactive.Interfaces System.Reactive.Core System.Reactive.Linq
+System.Data.Services.Client:  System System.Core System.Xml.Linq System.Data System.XML WindowsBase
+System.Data.Services:  System System.Core System.ServiceModel System.ServiceModel.Web System.Data.Services.Client System.ServiceModel.Activation
+System.Data.Entity:  System System.Core System.Data System.XML System.Xml.Linq System.Transactions System.Runtime.Serialization System.ComponentModel.DataAnnotations System.Configuration
+System.Data.DataSetExtensions:  System.Core System System.Data System.XML
+System.Json.Microsoft:  System System.XML System.Core System.Runtime.Serialization Microsoft.CSharp
+System.Threading.Tasks.Dataflow:  System.Core System
+System.ComponentModel.Composition.4.5:  System System.Core
+System.Windows:  System
+System.Xml.Serialization:  System.XML System.ServiceModel
+System.DirectoryServices.Protocols:  System System.DirectoryServices System.XML
+Microsoft.VisualC:  System
+WebMatrix.Data:  System System.Data System.Core System.Configuration
+monodoc:  ICSharpCode.SharpZipLib System System.Core System.XML System.Xml.Linq System.Configuration
+System.Deployment:  
+System.Web.Mobile:  
+System.Web.RegularExpressions:  
+System.Workflow.Activities:  
+System.Workflow.ComponentModel:  
+System.Workflow.Runtime:  
+System.Reflection.Context:  System
+legacy/Mono.Cecil:  System.Core
